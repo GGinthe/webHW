@@ -1,38 +1,452 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>WEEEEE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Carena</title>
   </head>
-  <body class="bg">
-    <div class="header">
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="./Img/Carena_Icon.png"
+          alt="logo"
+        />
+      </div>
+      <div class="res-menu">
+        <img src="./Img/assets/menu-30.png" alt="menu" />
+      </div>
+      <div class="primary-menu">
+        <a href="" class="primary-menu-item active">遊戲</a>
+        <a href="" class="primary-menu-item">客服中心</a>
+        <a href="" class="primary-menu-item">儲值中心</a>
+        <a href="" class="primary-menu-item">關於我們</a>
+      </div>
+      <div class="header-options">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        <div class="auth">
+          <i class="fa fa-user" aria-hidden="true"></i>
+          <span>登入</span>
+        </div>
+        <button class="download-btn">
+          電腦版
+        </button>
+      </div>
+    </header>
+    <section id="hp-prim-show">
+      <div class="container">
+        <div class="top-bar">
+          <div class="search">
+            <input placeholder="Search" />
+          </div>
+        </div>
+        <div class="content">
+          <div class="game-banner">
+            <img
+              src="./Img/JumpKing.jpg"
+            />
+          </div>
+          <div class="game-details">
+            <div class="top">
+              <div class="game-change-arrows">
+                <img src="./Img/assets/chevron-left-24.png" />
+                <img src="./Img/assets/chevron-right-24.png" />
+              </div>
+              <div class="active-and-other-dots">
+                <span class="dot active-dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <div class="main-details">
+              <p class="available-bool">
+                熱賣中
+              </p>
+              <h2 class="game-title">Jump King</h2>
+              <p class="game-details-txt">
+                接受挑戰，
+                準備面對真正的高風險遊戲！
+              </p>
+              <button class="shop-btn">
+                前往遊戲 <img src="./Img/assets/right-24.png" alt="r-arrw" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="new-release">
+      <div class="container">
+        <h3 class="heading">新上架</h3>
 
-    </div>
+        <div class="new-games-list">
+          <div class="single-game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/TheOuterWorlds.jpg"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
+            <h3 class="title">The Outer Worlds</h3>
+            <div class="sub-title">Obsidian Entertainment</div>
+            <div class="price">$8.99</div>
+          </div>
+          <div class="single-game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/MetroExodus.webp"
+                alt="game-pic"
+              />
+              <img class="game-logo" src="" />
+            </div>
 
-    <nav class="nav_box">
-        <ul class="nav_list">
-            <li class="nav_list_item">
-                <a class="nav_list_item_link">Home</a>
-            </li>
-            <li class="nav_list_item">
-                <a class="nav_list_item_link">About Us</a>
-            </li>
-            <li class="nav_list_item">
-                <a class="nav_list_item_link">Vegetables</a>
-            </li>
-            <li class="nav_list_item">
-                <a class="nav_list_item_link">Online</a>
-            </li>
-            <li class="nav_list_item">
-                <a class="nav_list_item_link">Contact</a>
-            </li>
-        </ul>
-    </nav>
+            <h3 class="title">Metro Exodus</h3>
+            <div class="sub-title">4A Games</div>
+            <div class="price">$10.99</div>
+          </div>
+          <div class="single-game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/TheWitch.webp"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
+            <h3 class="title">The Witcher 3: Wild Hunt</h3>
+            <div class="sub-title">CD PROJECT RED</div>
+            <div class="price">$9.87</div>
+          </div>
+          <div class="single-game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/Borderlands.jpg"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
 
-    <img src="Image/img_main_pumpkin.png" class="img_main_pumpkin" alt="Pumpkin">
+            <h3 class="title">Border Lands 3</h3>
+            <div class="sub-title">Gearbox Software | 2K</div>
+            <div class="price">$10.99</div>
+          </div>
+          <div class="single-game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/ManEater.jpg"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
+            <h3 class="title">ManEater</h3>
+            <div class="sub-title">Tripwire</div>
+            <div class="price">$12.54</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="free-games-weekly">
+      <div class="container">
+        <h3 class="main-title">限時免費</h3>
+        <div class="games">
+          <div class="game">
+            <img
+              src="./Img/Civilization.webp"
+              alt="game"
+            />
+            <h5 class="is-it-free">FREE NOW</h5>
+            <h4 class="name">Sid Meier’s Civilization VI</h4>
+            <h5 class="free-time">Free Now</h5>
+          </div>
+          <div class="game">
+            <img
+              src="./Img/gta.jpg"
+              alt="game"
+            />
+            <h5 class="is-it-free free-soon">即將發行</h5>
+            <h4 class="name">Grand Theft Auto V</h4>
+            <h5 class="free-time">Free May 21 - Dec 28</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="top-sellers">
+      <div class="container">
+        <div class="top-bar">
+          <h3 class="main-title">
+            熱門遊戲
+          </h3>
+          <button class="more">
+            查看更多
+          </button>
+        </div>
+        <div class="games">
+          <div class="game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/RedDead.jpg"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
 
-    <div class="body_box">
-    </div>
-    <footer class="box_footer">
+            <h3 class="title">Red Dead Redemption 2</h3>
+            <div class="sub-title">Rockstar Games</div>
+            <div class="price">$24.99</div>
+          </div>
+          <div class="game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/Portrait_Promo.webp"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
+
+            <h3 class="title">Control</h3>
+            <div class="sub-title">Remedy Entertainment Plc</div>
+            <div class="price">$27.49</div>
+          </div>
+          <div class="game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/Assassin's Creed.jpg"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
+
+            <h3 class="title">Assassin's Creed Odyessey</h3>
+            <div class="sub-title">Ubisoft</div>
+            <div class="price">$15.82</div>
+          </div>
+          <div class="game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/saints.webp"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
+
+            <h3 class="title">Saints Row The Third Remastered</h3>
+            <div class="sub-title">Sperasoft | Deep silver</div>
+            <div class="price">$4.99</div>
+          </div>
+          <div class="game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/OldWorld.webp"
+                alt="game-pic"
+              />
+              <img class="game-logo" src="" />
+            </div>
+
+            <h3 class="title">Old World</h3>
+            <div class="sub-title">Mohawk Games</div>
+            <div class="price">$12.30</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="trial-weekend">
+      <div class="container">
+        <h3 class="main-title">限時免費</h3>
+        <div class="main-content">
+          <div class="prim-content">
+            <h1 class="game-title">飆酷車神</h1>
+            <h2 class="details">
+              隨心所欲的競速，無縫接軌的體驗
+            </h2>
+            <button class="play-btn">立即開始</button>
+          </div>
+          <div class="graphic-content"></div>
+        </div>
+      </div>
+    </section>
+     <section id="coming-soon">
+      <div class="container">
+        <h3 class="sec-title">即將上市</h3>
+        <div class="games">
+          <div class="game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/TonyHawks.webp"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
+
+            <h3 class="title">Tony Hawk's™ Pro Skater</h3>
+            <div class="sub-title">Available 2020/09/04</div>
+            <div class="price">$49.99</div>
+          </div>
+          <div class="game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/SAMURAISHODOWN.webp"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
+
+            <h3 class="title">SAMURAI REBOOT!</h3>
+            <div class="sub-title">Available/2020/07/04</div>
+            <div class="price">$10.99</div>
+          </div>
+          <div class="game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/DeathStranding.webp"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
+
+            <h3 class="title">Death Stranding</h3>
+            <div class="sub-title">Available 2021/02/14</div>
+            <div class="price">$24.49</div>
+          </div>
+          <div class="game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/ACPREORDER.webp"
+                alt="game-pic"
+              />
+              <img
+                class="game-logo"
+                src=""
+              />
+            </div>
+
+            <h3 class="title">Assassin's Creed: Valhalla</h3>
+            <div class="sub-title">Available 2020/7/21</div>
+            <div class="price">$24.99</div>
+          </div>
+          <div class="game">
+            <div class="img-box">
+              <img
+                class="game-img"
+                src="./Img/MafiaTrilogy.jpg"
+                alt="game-pic"
+              />
+              <img class="game-logo" src="" />
+            </div>
+
+            <h3 class="title">Mafia: Triiogy</h3>
+            <div class="sub-title">TBD</div>
+            <div class="price">$29.99</div>
+          </div>
+        </div>
+      </div>
+    </section>
+   <section id="categories">
+      <div class="container">
+        <h3 class="main-title">熱門類別</h3>
+        <div class="main-content">
+          <div class="category">
+            <h4 class="title">動作冒險</h4>
+          </div>
+          <div class="category">
+            <h4 class="title">角色扮演</h4>
+          </div>
+          <div class="category">
+            <h4 class="title">射擊</h4>
+          </div>
+          <div class="category">
+            <h4 class="title">戰略</h4>
+          </div>
+          <div class="category">
+            <h4 class="title">解謎</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+   <footer>
+      <div class="top-content">
+        <div class="socials">
+          <img src="./Img/assets/facebook-32.png" alt="fb" class="social" />
+          <img
+            src="./Img/assets/twitter-50.png"
+            alt="twitter"
+            class="social"
+          />
+          <img
+            src="./Img/assets/play-button-50.png"
+            alt="yt"
+            class="social"
+          />
+        </div>
+        <div class="small-nav">
+          <img src="./Img/assets/slide-up-50.png" />
+        </div>
+      </div>
+        </div>
+      </div>
+      <div class="text-cont">
+        Carena © 2020.
+      </div>
+      <div class="down-content">
+        <div class="left-cont">
+          <li>服務條款</li>
+          <li>隱私條款</li>
+          <li>退款規則</li>
+        </div>
+        <div class="right-cont">
+          <img
+            src="./Img/Carena_Icon.png"
+            alt="logo"
+          />
+        </div>
+      </div>
     </footer>
+  </body>
 </html>
-
