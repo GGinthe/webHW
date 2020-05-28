@@ -262,7 +262,7 @@ header .header-options .auth:hover {
   margin: 0 0 0 10px;
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1024px) {
   #hp-prim-show {
     margin: 100px 0 0px 0;
   }
@@ -368,13 +368,13 @@ header .header-options .auth:hover {
   font-weight: bold;
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1024px) {
   #new-release .container {
     padding: 0 30px;
   }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 768px) {
   #new-release .container .new-games-list {
     grid-template-columns: repeat(5, 250px);
     overflow-x: auto;
@@ -395,7 +395,7 @@ header .header-options .auth:hover {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 320px) {
   #new-release .container .new-games-list {
     grid-template-columns: repeat(5, 210px);
   }
@@ -447,7 +447,7 @@ header .header-options .auth:hover {
   background: #1a1a1a;
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1024px) {
   #free-games-weekly .container {
     padding: 0 30px;
   }
@@ -539,13 +539,13 @@ header .header-options .auth:hover {
   font-weight: bold;
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1024px) {
   #top-sellers .container {
     padding: 0 30px;
   }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 768px) {
   #top-sellers .container .games {
     grid-template-columns: repeat(5, 250px);
     overflow-x: auto;
@@ -562,7 +562,7 @@ header .header-options .auth:hover {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 320px) {
   #top-sellers .container .games {
     grid-template-columns: repeat(5, 210px);
   }
@@ -606,7 +606,7 @@ header .header-options .auth:hover {
 #trial-weekend .container .main-content .prim-content .play-btn {
   padding: 20px 40px;
   color: #fff;
-  background-color: hsla(0, 0%, 95.7%, 0.2);
+  background-color: rgba(244, 244, 244, 0);
   border: none;
   font-size: 15px;
 }
@@ -623,7 +623,7 @@ header .header-options .auth:hover {
   background-position: center;
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1024px) {
   #trial-weekend .container {
     padding: 0 30px;
   }
@@ -761,13 +761,13 @@ header .header-options .auth:hover {
   font-weight: bold;
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1024px) {
   #coming-soon .container {
     padding: 0 30px;
   }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 768px) {
   #coming-soon .container .games {
     grid-template-columns: repeat(5, 250px);
     overflow-x: auto;
@@ -864,7 +864,7 @@ header .header-options .auth:hover {
   z-index: 1;
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1024px) {
   #categories .container {
     padding: 0 30px;
   }
