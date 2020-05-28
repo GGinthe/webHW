@@ -610,7 +610,12 @@ header .header-options .auth:hover {
   border: none;
   font-size: 15px;
 }
-
+#trial-weekend .container .main-content .prim-content .play-btn:hover {
+  background-color: rgba(244, 244, 244, 0.192);
+}
+#trial-weekend .container .main-content .prim-content .play-btn:active {
+  background-color: rgba(244, 244, 244, 0);
+}
 #trial-weekend .container .main-content .graphic-content {
   background-image: url("../Img/crew2.png");
   background-size: cover;
